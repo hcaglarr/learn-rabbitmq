@@ -25,6 +25,7 @@
 
     <modules>
         <module>choosing-connection-factory-pool</module>
+        <module>thread-channel-connection-factory</module>
     </modules>
 
     <groupId>com.hcaglar</groupId>
