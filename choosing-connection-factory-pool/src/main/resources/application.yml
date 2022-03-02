@@ -1,0 +1,19 @@
+sp:
+  rabbit:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    producer:
+      routing-key: routingKey
+      queue: queue
+      exchange: exchange
+server:
+  port: 8776
+#
+# This way it can be configured without writing java code.
+#
+# spring.rabbitmq.host=localhost
+# spring.rabbitmq.port=5672
+# spring.rabbitmq.username=guest
+# spring.rabbitmq.password=guest
